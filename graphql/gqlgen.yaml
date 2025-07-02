@@ -2,7 +2,7 @@ schema: schema.graphql
 
 models:
   Account:
-    Model: github.com/pshawon/go-grpc-graphql-micro/graphql.Account
-    Fields:
+    model: github.com/pshawon/go-grpc-graphql-micro/graphql.Account
+    fields:
       Orders:
         resolver: true
